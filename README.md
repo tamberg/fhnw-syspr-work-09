@@ -12,6 +12,13 @@ Für Slides und Code Beispiele, siehe [Lektion 9](../../../fhnw-syspr/blob/maste
 * Builden Sie die Programme, und lassen Sie sie laufen.
 * Zeichnen Sie [Sequenzdiagramme](http://websequencediagrams.com) mit User, Client, Server, das den Ablauf / übertragene Daten zeigt.
 
+### b) Internet Domain Sockets, 30'
+* Analysieren Sie dieses Socket Beispiel bestehend aus:
+* Header [i6d_ucase.h](http://man7.org/tlpi/code/online/book/sockets/i6d_ucase.h.html)<sup>TLPI</sup>, Server [i6d_ucase_sv.c](http://man7.org/tlpi/code/online/book/sockets/i6d_ucase_sv.c.html)<sup>TLPI</sup>, Client [i6d_ucase_cl.c](http://man7.org/tlpi/code/online/book/sockets/i6d_ucase_cl.c.html)<sup>TLPI</sup>.
+* Builden Sie die Programme, und lassen Sie sie laufen:<pre>
+    $ ./i6d_ucase_sv &
+    $ ./i6d_ucase_cl ::1 hello</pre>
+
 ### Abgabe (optional)
 * Lokale Änderungen [committen und pushen](#git).
 * GitHub [Issue erstellen](../../issues/new) mit "Bitte um Review, @tamberg".
