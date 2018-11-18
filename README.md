@@ -19,6 +19,22 @@ Für Slides und Code Beispiele, siehe [Lektion 9](../../../fhnw-syspr/blob/maste
     $ ./i6d_ucase_sv &
     $ ./i6d_ucase_cl ::1 hello</pre>
 
+### c) Web Client, 1h
+* Schreiben Sie einen Web Client my_http_client.c, der folgenden HTTP Request an den Host tmb.gr, Port 80 sendet, die Antwort liest, und auf stdout ausgibt:<pre>
+    "GET /syspr HTTP/1.1\r\n"
+    "Host: tmb.gr\r\n"
+    "\r\n"</pre>
+* Hinweis: HTTP nutzt TCP als Transport-Protokoll.
+* Länge der Antwort ist im Content-Length Header
+
+### d) Web Server, 1h
+* Schreiben Sie einen Web Server my_http_server.c, der einkommende HTTP Requests auf Port 8080 liest und folgende Antwort zum Client / Browser sendet:<pre>
+    "HTTP/1.1 200 OK\r\n"
+    "Connection: close\r\n"
+    "Content-Length: 5\r\n"
+    "\r\n"
+    "hello"</pre>
+
 ### Abgabe (optional)
 * Lokale Änderungen [committen und pushen](#git).
 * GitHub [Issue erstellen](../../issues/new) mit "Bitte um Review, @tamberg".
