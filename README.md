@@ -25,7 +25,7 @@ Für Slides und Code Beispiele, siehe [Lektion 9](../../../fhnw-syspr/blob/maste
     "Host: tmb.gr\r\n"
     "\r\n"</pre>
 * Hinweis: HTTP nutzt TCP als Transport-Protokoll.
-* Länge der Antwort ist im Content-Length Header
+* Länge der Antwort ist im Content-Length Header.
 
 ### d) Web Server, 1h
 * Schreiben Sie einen Web Server my_http_server.c, der einkommende HTTP Requests auf Port 8080 liest und folgende Antwort zum Client / Browser sendet:<pre>
