@@ -19,7 +19,7 @@ Für Slides und Code Beispiele, siehe [Lektion 9](../../../fhnw-syspr/blob/maste
     $ ./i6d_ucase_sv &
     $ ./i6d_ucase_cl ::1 hello</pre>
 
-### c) Web Client, 1h
+### c) Web Client, 1h+
 * Schreiben Sie einen Web Client _my_http_client.c_, der folgenden HTTP Request an den Host _tmb.gr_, Port _80_ sendet, die Antwort liest, und auf _stdout_ ausgibt:<pre>
     "GET /syspr HTTP/1.1\r\n"
     "Host: tmb.gr\r\n"
@@ -27,7 +27,7 @@ Für Slides und Code Beispiele, siehe [Lektion 9](../../../fhnw-syspr/blob/maste
 * Hinweis: HTTP nutzt TCP als Transport-Protokoll.
 * Länge der Antwort ist im _Content-Length_ Header.
 
-### d) Web Server, 1h
+### d) Web Server, 1h+
 * Schreiben Sie einen Web Server _my_http_server.c_, der einkommende HTTP Requests auf Port _8080_ liest und folgende Antwort zum Client / Browser sendet:<pre>
     "HTTP/1.1 200 OK\r\n"
     "Connection: close\r\n"
